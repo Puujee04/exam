@@ -2,10 +2,15 @@ const string = 'apple, banana, kiwi';
 
 // 1. Өгсөн string - ийн бүх үсгийг том болго: 'APPLE, BANANA, KIWI'
 // -- Энд кодоо бичнэ үү!
-
+let text = string.toUpperCase();
+console.log(text);
 // 2. Өгсөн string - ийг дараах хэлбэртэй болго: 'Apple; Banana; Kiwi'
 // -- Энд кодоо бичнэ үү!
-
+let arr = string.split(',');
+for(let i=0; i<arr.length; i++){
+    arr[i][0].toUpperCase();
+}
+console.log(arr);
 const array = ['d', 'e', 'c', 'a', 'b'];
 // 3. Өгсөн array - ыг үсгийн дарааллаар эрэмблэ.
 // -- Энд кодоо бичнэ үү!

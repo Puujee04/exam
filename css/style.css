@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+}
+
+.flex.column{
+    flex-direction: column;
+}
+
+.flex.just-start{
+    justify-content: flex-start;
+}
+
+.flex.just-center{
+    justify-content: center;
+}
+
+.flex.align-center{
+    align-items: center;
+}
+
+.flex-1{
+    flex: 1;
+}
+.flex-4{
+    flex: 4;
+}
+
+.container{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(240, 234, 179);
+    
+}
+.up-dotor{
+    background-color: red;
+    margin: 5px;
+}
+.down-zuun{
+    background-color: darkcyan;
+    margin: 5px;
+}
+.down-zuun-dotor{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+}
+.down-dotor-baruun{
+    background-color: cornflowerblue;
+    margin: 5px;
+}
